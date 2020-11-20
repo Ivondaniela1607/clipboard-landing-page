@@ -172,9 +172,78 @@ h1{
 /* #####Acá comienza clipboard ###*/
 /* ##################################### */
 
+.clickboard-img{
+  display: flex;
+  justify-content: center;
+}
 
+.clickboard-img img{
+  margin-top: 70px;
+  width: 70%;
+  
+  border: 1px purple solid;
+  
+}
 
 /* ##################################### */
 /* #####Acá termina clickboard ###*/
 /* ##################################### */
 
+/* ##################################### */
+/* #####Acá comienza workflow ###*/
+/* ##################################### */
+.tools1{
+  border: 1px red solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "area1 area2 area3";
+  gap: 20px;
+  width: 90%;
+  margin: 80px auto;
+
+}
+.tools1-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tools1-container p{
+  font-size: var(--small);
+  text-align: center;
+}
+
+.tools1-container img{
+  border: 1px black solid;
+  margin-bottom: 30px;
+}
+
+.tools1-container h3{
+  border: 1px black solid;
+  margin-bottom: 10px;
+}
+
+.tools2{
+  border: 1px red solid;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "area1 area2 area3";
+  gap: 20px;
+  width: 90%;
+  margin: 150px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tools2-container{
+  border: 1px black solid;
+ 
+}
+
+.available-detail p{
+  text-align: center;
+}
+
+
+/* ##################################### */
+/* #####Acá temrina workflow ###*/
+/* ##################################### */
