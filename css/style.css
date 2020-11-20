@@ -144,6 +144,7 @@ h1{
 
 .container-items{
   display: flex;
+  margin-top: 80px;
 }
 
 .container-items-img img{
@@ -152,7 +153,28 @@ h1{
   object-position: -30px 0;
 }
 
+.track-items-detail h3{
+  padding-top: 50px;
+}
+
+.track-items-detail p{
+  text-align: left;
+  font-size: var(--mini);
+}
 /* ##################################### */
-/* #####Acá termina History ###*/
+/* #####Acá termina track ###*/
+/* ##################################### */
+
+
+
+
+/* ##################################### */
+/* #####Acá comienza clipboard ###*/
+/* ##################################### */
+
+
+
+/* ##################################### */
+/* #####Acá termina clickboard ###*/
 /* ##################################### */
 
