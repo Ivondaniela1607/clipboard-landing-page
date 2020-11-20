@@ -247,3 +247,61 @@ h1{
 /* ##################################### */
 /* #####Acá temrina workflow ###*/
 /* ##################################### */
+
+/* ##################################### */
+/* #####Acá comienza footer ###*/
+/* ##################################### */
+
+.footer{
+  margin-top: 120px;
+  background-color: hsla(202, 11%, 66%, 0.116);
+  border: 1px palevioletred solid;
+  display: flex;
+  
+  align-items: center;
+  padding: 40px 0;
+}
+
+.footer-logo{
+  border: 1px red solid;
+  margin-left: 10%;
+  
+}
+
+.footer-logo img{
+  width: 50px;
+  
+}
+
+.footer-detail{
+  border: 1px red solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ column-gap: 80px;
+ row-gap: 20px;
+ margin-left: 10%;
+ 
+  
+}
+
+.footer-detail a{
+  text-decoration: none;
+  color: var(--DarkGrayishBlue);
+  
+}
+
+.footer-social{
+  border: 1px red solid;
+  
+  margin-left: 20%;
+  
+}
+
+.footer-social img{
+  border: 1px black solid;
+  margin-right: 10px;
+}
+
+/* ##################################### */
+/* #####Acá termina footer ###*/
+/* ##################################### */
