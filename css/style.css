@@ -84,6 +84,16 @@ p{
   margin-left: 5px;
 }
 
+h2{
+  border: 1px black solid;
+  color: var(--DarkGrayishBlue);
+  font-size: var(--medium);
+  margin: 150px 0 0;
+}
+h3{
+  color: var(--DarkGrayishBlue);
+}
+
 /* ##################################### */
 /* #####Acá comienza History ###*/
 /* ##################################### */
@@ -122,6 +132,25 @@ h1{
   transition: all 0.5s;
 }
 
+
+/* ##################################### */
+/* #####Acá termina History ###*/
+/* ##################################### */
+
+
+/* ##################################### */
+/* #####Acá comienza Track ###*/
+/* ##################################### */
+
+.container-items{
+  display: flex;
+}
+
+.container-items-img img{
+  border: 1px green solid;
+  width: 90%;
+  object-position: -30px 0;
+}
 
 /* ##################################### */
 /* #####Acá termina History ###*/
