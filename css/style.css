@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ##################################### */
+/* ########### VARIABLES ###############*/
+/* ##################################### */
+
+:root{
+  /* Tamaño fuente */
+  --normal: 18px;
+  --large: 40px;
+  --medium: 30px;
+  --small: 16px;
+  --mini: 14px;
+
+  /* colores */
+  --StrongCyan: hsl(171, 66%, 44%);
+  --LightBlue: hsl(233, 100%, 69%);
+
+  /*  ### Neutral */
+
+  --DarkGrayishBlue: hsl(210, 10%, 33%);
+  --GrayishBlue: hsl(201, 11%, 66%);
+}
+
+body{
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.hero{
+  border: 1px red solid;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.center{
+  border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p{
+  color: var(--GrayishBlue);
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px black solid;
+}
+
+.button{
+  margin-top: 50px;
+  
+}
+
+.button a{
+  border-radius: 100px;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  font-size: var(--normal);
+  font-weight: 600;
+  font-size: var(--small);
+  letter-spacing: 1px;
+
+}
+
+.ios{
+  background-color: var(--StrongCyan);
+  border: 2px var(--StrongCyan) solid;
+  box-shadow: 2px 3px 2px hsl(171, 65%, 41%);
+  margin-right: 5px;
+}
+
+.mac{
+  background-color: var(--LightBlue);
+  border: 2px var(--LightBlue) solid;
+  box-shadow: 2px 3px 2px hsl(233, 60%, 57%);
+  margin-left: 5px;
+}
+
+/* ##################################### */
+/* #####Acá comienza History ###*/
+/* ##################################### */
+
+h1{
+  color: var(--DarkGrayishBlue);
+  margin: 30px 0 0  ;
+  font-size: var(--large);
+  
+}
+
+.logo-c{
+  margin-top: 120px;
+  border: 1px red solid;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-c img{
+  width: 100px;
+}
+
+.ios:hover{
+  border: 1px var(--StrongCyan) solid;
+  background-color: transparent;
+  color: var(--StrongCyan);
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.mac:hover{
+  border: 1px var(--LightBlue) solid;
+  background-color: transparent;
+  color: var(--LightBlue);
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+
+/* ##################################### */
+/* #####Acá termina History ###*/
+/* ##################################### */
+
