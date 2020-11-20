@@ -33,13 +33,13 @@ body{
 }
 
 .hero{
-  border: 1px red solid;
+  
   max-width: 90%;
   margin: 0 auto;
 }
 
 .center{
-  border: 1px red solid;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +50,7 @@ p{
   line-height: 30px;
   text-align: center;
   margin-top: 10px;
-  border: 1px black solid;
+ 
 }
 
 .button{
@@ -85,10 +85,11 @@ p{
 }
 
 h2{
-  border: 1px black solid;
+  
   color: var(--DarkGrayishBlue);
   font-size: var(--medium);
   margin: 150px 0 0;
+  text-align: center;
 }
 h3{
   color: var(--DarkGrayishBlue);
@@ -102,12 +103,11 @@ h1{
   color: var(--DarkGrayishBlue);
   margin: 30px 0 0  ;
   font-size: var(--large);
-  
+  text-align: center;
 }
 
 .logo-c{
   margin-top: 120px;
-  border: 1px red solid;
   display: flex;
   justify-content: center;
 }
@@ -148,7 +148,6 @@ h1{
 }
 
 .container-items-img img{
-  border: 1px green solid;
   width: 90%;
   object-position: -30px 0;
 }
@@ -180,9 +179,6 @@ h1{
 .clickboard-img img{
   margin-top: 70px;
   width: 70%;
-  
-  border: 1px purple solid;
-  
 }
 
 /* ##################################### */
@@ -193,7 +189,6 @@ h1{
 /* #####Acá comienza workflow ###*/
 /* ##################################### */
 .tools1{
-  border: 1px red solid;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "area1 area2 area3";
@@ -213,20 +208,18 @@ h1{
 }
 
 .tools1-container img{
-  border: 1px black solid;
   margin-bottom: 30px;
 }
 
 .tools1-container h3{
-  border: 1px black solid;
   margin-bottom: 10px;
 }
 
 .tools2{
-  border: 1px red solid;
+  
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-areas: "area1 area2 area3";
+  
   gap: 20px;
   width: 90%;
   margin: 150px auto 0;
@@ -235,7 +228,7 @@ h1{
 }
 
 .tools2-container{
-  border: 1px black solid;
+  
  
 }
 
@@ -255,7 +248,7 @@ h1{
 .footer{
   margin-top: 120px;
   background-color: hsla(202, 11%, 66%, 0.116);
-  border: 1px palevioletred solid;
+  
   display: flex;
   
   align-items: center;
@@ -263,7 +256,7 @@ h1{
 }
 
 .footer-logo{
-  border: 1px red solid;
+ 
   margin-left: 10%;
   
 }
@@ -274,7 +267,7 @@ h1{
 }
 
 .footer-detail{
-  border: 1px red solid;
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
  column-gap: 80px;
@@ -291,14 +284,14 @@ h1{
 }
 
 .footer-social{
-  border: 1px red solid;
+  
   
   margin-left: 20%;
   
 }
 
 .footer-social img{
-  border: 1px black solid;
+  
   margin-right: 10px;
 }
 

@@ -1,12 +1,168 @@
-@media screen and (max-width: 924px){
+:root{
+  /* Tamaño fuente */
+  --normal: 18px;
+  --large: 40px;
+  --medium: 30px;
+  --small: 16px;
+  --mini: 14px;
+
+  /* colores */
+  --StrongCyan: hsl(171, 66%, 44%);
+  --LightBlue: hsl(233, 100%, 69%);
+
+  /*  ### Neutral */
+
+  --DarkGrayishBlue: hsl(210, 10%, 33%);
+  --GrayishBlue: hsl(201, 11%, 66%);
+}
+
+@media screen and (max-width: 1215px){
+
+  .footer-logo{
+    border: 1px red solid;
+    margin-left: 5%;
+    
+  }
+
+  .footer-social{
+    margin-left: 10%;
+  }
+ 
+}
+
+@media screen and (max-width: 1120px){
+  .footer-logo{
+    border: 1px red solid;
+    margin-left: 0;
+    
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+  .container-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .container-items-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+  }
+  .container-items-img img{
+    width: 90%;
+    object-position: 0 0;
+    margin: 0 auto;
+  }
+
+  .track-items-detail h3{
+    text-align: center;
+    font-size: var(--medium);
+  }
+
+  .track-items-detail p{
+    text-align: center;
+    font-size: var(--normal);
+  }
+
+  .tools2{
+    width: 100%;
+    margin: 150px auto 0;
+  } 
+}
+
+@media screen and (max-width: 920px){
+
+  .tools2{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tools2-container{
+    margin: 30px 0;
+   
+  }
+
+  .footer-detail{
+   
+    margin-left: 0;  
+    margin-top: 30px;
+
+  }
+
+  .footer-social{
+    
+    
+    margin-left: 0;
+    margin-top: 30px;
+    
+  }
+
+  .footer-social img{
+    
+    margin: 0 10px 0;
+  }
+
+  
+  .footer-logo{
+    
+    margin-left: 0;
+    
+  }
+}
+
+
+
+@media screen and (max-width: 768px){
+  .tools1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .footer-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .ios{
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  
+  .mac{
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
 
 }
-@media screen and (max-width: 924px){
 
-}
-@media screen and (max-width: 924px){
-
-}
-@media screen and (max-width: 924px){
-
+@media screen and (max-width: 370px){
+  body{
+      
+    background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+  }
 }
